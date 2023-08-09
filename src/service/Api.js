@@ -35,7 +35,7 @@ const apiVitaminaWeb = {
   },
 
   selectProducts() {
-    return apiRequest.get('/product/select/')
+    return apiRequest.get('/product/select')
   },
 
   postSalesOpportunity(salesOpportunity) {

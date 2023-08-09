@@ -115,6 +115,7 @@ export default {
                             title: 'Oops...',
                             text: 'Erro ao cadastrar procedimento!',
                         })
+                        this.clear()
                         self.$router.push('/oportunidade-venda/')
                     }
                 }).catch(function (error) {
@@ -123,7 +124,8 @@ export default {
                     title: 'Oops...',
                     text: 'ERRO, tente novamente mais tarde!',
                 })
-                self.$router.push('/')
+                this.clear()
+                self.$router.push('/oportunidade-venda/')
             })
 
         },
