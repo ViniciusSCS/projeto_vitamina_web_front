@@ -1,35 +1,42 @@
-# projeto_vitamina_web_front
+# Sistema de Petshop
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é um sistema de gerenciamento de petshop desenvolvido usando Vue 2.
 
-## Recommended IDE Setup
+## Recursos Principais
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Cadastro de clientes
+- Cadastro de animais
+- Agendamento de consultas
+- Cadastro de medicamentos
+- Controle de estoque de produtos
+- Geração de relatórios
 
-## Customize configuration
+## Requisitos do Sistema
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Node.js
+- Vue CLI
+- Vue 2
 
-## Project Setup
+## Instalação
 
-```sh
-npm install
-```
+1. Clone o repositório ou faça o download do código-fonte do projeto.
+2. Navegue até o diretório do projeto via terminal.
+3. Execute o comando `npm install` para instalar as dependências do projeto.
+4. Execute o comando `npm run serve` para iniciar o servidor de desenvolvimento.
 
-### Compile and Hot-Reload for Development
+## Uso
 
-```sh
-npm run dev
-```
+Acesse o sistema através do navegador utilizando a URL fornecida pelo servidor de desenvolvimento. Você será redirecionado para a página de login.
 
-### Compile and Minify for Production
+- Faça login usando suas credenciais ou crie uma nova conta.
+- Após o login, você terá acesso às funcionalidades do sistema.
+- Navegue pelas diferentes seções do sistema para gerenciar clientes, animais, agendamentos de consultas, medicamentos e estoque de produtos.
+- Utilize as opções de menu para acessar as diferentes funcionalidades do sistema.
 
-```sh
-npm run build
-```
+## Contribuição
 
-### Lint with [ESLint](https://eslint.org/)
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, fique à vontade para abrir uma issue ou enviar um pull request.
 
-```sh
-npm run lint
-```
+## Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
